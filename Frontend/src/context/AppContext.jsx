@@ -24,7 +24,7 @@ const AppContextProvider = ({ children }) => {
             
             // If hosted on same domain, use relative path
             // Otherwise, this will fail and show an error (which is correct)
-            backendUrl = '';
+            backendUrl = 'https://doctor-app-f2p9.onrender.com';
             console.error('❌ VITE_BACKEND_URL is not set in production!');
             console.error('Please set VITE_BACKEND_URL environment variable in your hosting platform.');
         }

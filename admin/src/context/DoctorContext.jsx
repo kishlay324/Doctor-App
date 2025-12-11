@@ -11,7 +11,7 @@ const DoctorContextProvider = (props) => {
 
     // Get backend URL with fallback for development
     const backendUrl = import.meta.env.VITE_BACKEND_URL || 
-                      (import.meta.env.DEV ? 'http://localhost:4000' : '');
+                      (import.meta.env.DEV ? 'https://doctor-app-f2p9.onrender.com' : '');
     
     // Log backend URL for debugging (only in development)
     if (import.meta.env.DEV && !backendUrl) {

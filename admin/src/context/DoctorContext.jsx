@@ -15,7 +15,7 @@ const DoctorContextProvider = (props) => {
     
     // Log backend URL for debugging (only in development)
     if (import.meta.env.DEV && !backendUrl) {
-        console.warn('⚠️ VITE_BACKEND_URL not set, using fallback: http://localhost:4000');
+        console.warn('⚠️ VITE_BACKEND_URL not set, using fallback: https://doctor-app-f2p9.onrender.com');
     }
    
     const [dToken, setDtoken] = useState(localStorage.getItem('dToken') ? localStorage.getItem('dToken') : '');

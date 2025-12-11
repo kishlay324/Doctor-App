@@ -15,7 +15,7 @@ const AppContextProvider = ({ children }) => {
     if (!backendUrl) {
         if (import.meta.env.DEV) {
             // Development mode - use localhost
-            backendUrl = 'http://localhost:4000';
+            backendUrl = 'https://doctor-app-f2p9.onrender.com';
             console.log('🔗 Development mode: Using localhost backend');
         } else {
             // Production mode - try to detect from window location or use a default
